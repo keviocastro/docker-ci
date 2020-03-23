@@ -1,0 +1,8 @@
+version: '3'
+services:
+  aws-cli:
+    build: ./aws-cli/
+    image: keviocastro/node-awscli
+  docker:
+    build: ./docker/
+    image: keviocastro/node-build

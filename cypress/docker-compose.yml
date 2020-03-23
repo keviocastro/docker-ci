@@ -1,0 +1,5 @@
+version: '3.7'
+services:
+  cy4:
+    image: keviocastro/cypress:4.2.0
+    build: ./4
